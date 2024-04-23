@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DefinitionsController">
+   <children>
+      <Label layoutX="14.0" layoutY="16.0" prefHeight="72.0" prefWidth="499.0" text="EC is the effort category and defualt for each life cycle step can be specified from block 3  " />
+      <Label layoutX="12.0" layoutY="33.0" prefHeight="90.0" prefWidth="473.0" text="D is the defualt for each life cycle step can be specified from block 3" />
+      <Label layoutX="286.0" layoutY="16.0" text="DEFINITIONS" />
+      <Text layoutX="21.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Life cycle" wrappingWidth="90.66668701171875" />
+      <Text layoutX="17.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Problem understanding" />
+      <Text layoutX="17.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conseptual Design Plan" wrappingWidth="143.185546875" />
+      <Text layoutX="17.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conseptual Design" />
+      <Text layoutX="17.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requirments" />
+      <Text layoutX="17.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conseptual Design Review" />
+      <Text layoutX="17.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detailed Design Plan" />
+      <Text layoutX="19.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detailed Design Prototype" />
+      <Text layoutX="19.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Implementation Plan" wrappingWidth="139.35937500000006" />
+      <Text layoutX="19.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Test case generation " wrappingWidth="139.35937500000006" />
+      <Text layoutX="19.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solotion Review " wrappingWidth="139.35937500000006" />
+      <Text layoutX="19.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solotion Specification " wrappingWidth="139.35937500000006" />
+      <Text layoutX="14.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Solotion Implemintation " wrappingWidth="139.35937500000006" />
+      <Text layoutX="19.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit/System Test " wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EC" wrappingWidth="90.66668701171875" />
+      <Text layoutX="184.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="184.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="143.185546875" />
+      <Text layoutX="184.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="184.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="184.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="184.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="184.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="184.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="184.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="295.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" wrappingWidth="90.66668701171875" />
+      <Text layoutX="298.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="298.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="143.185546875" />
+      <Text layoutX="298.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="298.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="298.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text layoutX="298.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+      <Text layoutX="298.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+      <Text layoutX="291.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  2" wrappingWidth="139.35937500000006" />
+      <Text layoutX="294.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" 5" wrappingWidth="66.94921875" />
+      <Text layoutX="272.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="        3" wrappingWidth="156.6926879882813" />
+      <Text layoutX="291.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  4" wrappingWidth="139.35937500000006" />
+      <Text layoutX="292.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  4" wrappingWidth="139.35937500000006" />
+      <Text layoutX="300.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" wrappingWidth="139.35937500000006" />
+      <TextArea editable="false" layoutX="350.0" layoutY="89.0" prefHeight="143.0" prefWidth="200.0" />
+      <Text layoutX="370.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Effort categories : " />
+      <Text layoutX="370.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.Plans " />
+      <Text layoutX="370.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Deliverables" wrappingWidth="109.658203125" />
+      <Text layoutX="369.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Interruptions" />
+      <Text layoutX="370.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Defects" />
+      <Text layoutX="372.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5. Others" />
+      <TextArea editable="false" layoutX="350.0" layoutY="246.0" prefHeight="112.0" prefWidth="214.0" />
+      <Text layoutX="358.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plan Specification : " />
+      <Text layoutX="361.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Project Plan " />
+      <Text layoutX="361.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Risk Managment Plan " />
+      <Text layoutX="361.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. Conseptual Design Plan " />
+      <Text layoutX="361.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. Detailed Design Plan" />
+      <Button fx:id="logConsole" layoutX="247.0" layoutY="368.0" mnemonicParsing="false" onAction="#changeToConsole" text="Return To Console" />
+   </children>
+</AnchorPane>

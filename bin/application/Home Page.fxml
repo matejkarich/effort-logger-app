@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.homeController">
+   <children>
+      <Label layoutX="38.0" layoutY="347.0" text="If You need to pause the activity press the &quot;Pause Activity&quot; Button. ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" text="Effort Logger Console">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="170.0" text="Select the project, life cycle step, effort category, and deliverable from the following lists.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="210.0" text="Project">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="210.0" text="Life Cycle Step">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="274.0" text="Effort Category">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="422.0" text="When you are ready to end the activity and add it to the log, press the &quot;Stop This Activity Button&quot;.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="ProjectChoice" layoutX="86.0" layoutY="239.0" prefHeight="26.0" prefWidth="395.0" />
+      <ChoiceBox fx:id="LifeCycleA" layoutX="531.0" layoutY="239.0" prefHeight="26.0" prefWidth="322.0" />
+      <ChoiceBox fx:id="Effort" layoutX="85.0" layoutY="305.0" prefHeight="26.0" prefWidth="209.0" />
+      <Button fx:id="activityStart" layoutX="86.0" layoutY="125.0" mnemonicParsing="false" onAction="#clockStart" text="Start an Activity">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Separator layoutX="1.0" layoutY="29.0" prefHeight="18.0" prefWidth="896.0" />
+      <Rectangle fx:id="color" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="54.0" layoutY="47.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="788.0" />
+      <ChoiceBox fx:id="plan" layoutX="333.0" layoutY="305.0" prefHeight="26.0" prefWidth="522.0" />
+      <Button fx:id="activityPause" layoutX="86.0" layoutY="380.0" mnemonicParsing="false" onAction="#clockPause" text="Pause this Activity ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="activityResume" layoutX="437.0" layoutY="380.0" mnemonicParsing="false" onAction="#clockResume" text="Resume this Activity">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="activityStop" layoutX="85.0" layoutY="454.0" mnemonicParsing="false" onAction="#clockStop" prefHeight="27.0" prefWidth="125.0" text="Stop this Activity ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="logEditor" layoutX="66.0" layoutY="546.0" mnemonicParsing="false" onAction="#changeToEditor" prefHeight="27.0" prefWidth="133.0" text="Effort Log Editor">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="logDefect" layoutX="259.0" layoutY="546.0" mnemonicParsing="false" onAction="#changeToDefect" prefHeight="27.0" prefWidth="146.0" text="Defect Log Console">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="Definitions" layoutX="468.0" layoutY="546.0" mnemonicParsing="false" onAction="#changeToDefinitions" prefHeight="27.0" prefWidth="126.0" text="Definitions">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="logED" layoutX="653.0" layoutY="546.0" mnemonicParsing="false" onAction="#changeToEDLog" prefHeight="27.0" prefWidth="200.0" text="Effort and Defect Logs">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="label1" layoutX="42.0" layoutY="96.0" text="When you are ready to begin the activity, press the &quot;Start an Activity Button&quot;.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="clockStatus" alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="55.0" prefHeight="20.0" prefWidth="788.0" text="CLOCK IS STOPPED " textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="logOut" layoutX="413.0" layoutY="573.0" mnemonicParsing="false" onAction="#logOut" text="LOG OUT " />
+   </children>
+</AnchorPane>
